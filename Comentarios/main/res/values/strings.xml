@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Comentarios</string>
+    <string name="publicar_text">Publicar</string>
+    <string name="escribe_un_comentario">Escribe un comentario</string>
+</resources>

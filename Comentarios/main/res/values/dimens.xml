@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">25dp</dimen>
+    <dimen name="margin_comentario">40dp</dimen>
+    <dimen name="margin_sizes">73dp</dimen>
+    <dimen name="margin_top">44dp</dimen>
+    <dimen name="size_widt">400dp</dimen>
+    <dimen name="size_h">200dp</dimen>
+</resources>

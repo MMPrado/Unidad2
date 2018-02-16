@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/horzontal"
+    android:paddingRight="@dimen/horzontal"
+    android:paddingTop="@dimen/vertical"
+    android:paddingBottom="@dimen/vertical"
+    android:background="@drawable/fondo2"
+
+    tools:context="mx.edu.utng.mmacias.compartir.MainActivityCompartir">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compartir"
+        android:id="@+id/buttonShare"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color_black"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/button_siz"
+        />
+
+    <Button
+        android:layout_width="@dimen/w_layout"
+        android:layout_height="@dimen/w_layout"
+        android:id="@+id/buttonFacebook"
+        android:background="@drawable/social_facebook"
+        android:layout_below="@+id/buttonShare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top" />
+
+    <Button
+        android:layout_width="@dimen/w_layout"
+        android:layout_height="@dimen/w_layout"
+        android:id="@+id/buttontwitter"
+        android:background="@drawable/twitter"
+        android:layout_alignTop="@+id/buttonFacebook"
+        android:layout_toLeftOf="@+id/buttonShare"
+        android:layout_toStartOf="@+id/buttonShare" />
+
+    <Button
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:id="@+id/buttonwhatsapp"
+        android:background="@drawable/whatsapp_socialnetwork"
+        android:layout_alignTop="@+id/buttonFacebook"
+        android:layout_toRightOf="@+id/buttonShare"
+        android:layout_toEndOf="@+id/buttonShare" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foto"
+        android:id="@+id/foto"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color_black"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/button_siz"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgfoto"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/foto"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/buttonShare"
+        />
+
+
+</RelativeLayout>
